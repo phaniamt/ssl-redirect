@@ -20,6 +20,6 @@ I made this little container to get around Kong's inability to upgrade HTTP conn
  
  Clone this reposirory 
  
- docker build -t yphani/kong-ssl-redirect .
- 
- docker push yphani/kong-ssl-redirect
+    docker build -t yphani/kong-ssl-redirect .
+
+    docker push yphani/kong-ssl-redirect
