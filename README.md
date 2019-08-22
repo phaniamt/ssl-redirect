@@ -15,3 +15,11 @@ I have a `LoadBalancer` service pushing traffic into Kong from the outside world
 
 ## Whyyyyy
 I made this little container to get around Kong's inability to upgrade HTTP connections to HTTPS - there are third party plugins for this, but since I run Kong in Kubernetes there's no easy way to add these plugins without needing to re-build the containers and publish them to a container registry.
+
+# Docker image
+ 
+ Clone this reposirory 
+ 
+ docker build -t yphani/kong-ssl-redirect .
+ 
+ docker push yphani/kong-ssl-redirect
